@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto, sans-serif;
+}
+
+header {
+    background-color: #1CD1B0;
+    padding: 10px;
+    padding-left: 25px;
+}
+
+.sec-heroes {
+    z-index: 10;
+    background-color: #00669F;
+    padding: 27px;
+    position: sticky; top: 1px;
+
+}
+
+.sec-heroes-title {
+    font-weight: 400;
+}
+
+.hero-cards {
+    padding: 154px 32px;
+
+}
+.hero-card{
+position: relative;
+    width: 300px;
+    display: inline-block;
+    margin-right: 32px;
+}
+
+.card-header {
+    height: 193px;
+    padding: 15px 21px;
+}
+
+.card-header.batman {
+    background-image: url(./img/Mask\ Group.png);
+}
+
+.card-header.harley {
+    background-image: url(./img/849bfede3a5193c34ab8a00379e64fa2\ 1.png);
+}
+
+.fav-icon {
+    color: #CC2424;
+    font-size: 30px;
+}
+
+.card-info {
+    background-color: #F3F3F3;
+    padding: 17px;
+   padding-top: 73px;
+    position: relative;
+    text-align: center;
+
+}
+.card-title {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.card-img-wrapper {
+    position: absolute;
+    bottom: 270px;
+    left: 84px;
+}
+
+.card-text {
+    font-size: 16px;
+    margin-bottom: 37px;
+    text-align: left;
+    line-height: 19px;
+    color: #333333;
+}
+
+.card-btn {
+    background-color: #00669F;
+    padding: 15px 35px;
+    color: #F3F3F3;
+}
+
+.cards-right {
+    color: #F3F3F3;
+    background-color: #00669F;
+    padding: 16px;
+}
